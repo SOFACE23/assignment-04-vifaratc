@@ -8,12 +8,15 @@ void AnimalRightsGroup::update(AnimalEvent event)
 {
     if (event == AnimalEvent::MonkeyFed)
     {
+        n_monkeys_fed+=1;
     }
     else if (event == AnimalEvent::TigerScratched)
     {
+        n_tigers_scratched+=1;
     }
     else if (event == AnimalEvent::FishTeethCleaned)
     {
+        n_fish_teeth_brushed+=1;
     }
 }
 

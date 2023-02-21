@@ -2,6 +2,7 @@
 
 void Keeper::visit(Monkey &monkey)
 {
+    
 }
 void Keeper::visit(Tiger &tiger)
 {
