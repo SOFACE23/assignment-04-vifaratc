@@ -1,7 +1,11 @@
 #include "animal_rights_group.hpp"
-#include <iostream>
+
 AnimalRightsGroup::AnimalRightsGroup(int n_monkeys, int n_tigers, int n_fish) : n_monkeys(n_monkeys), n_tigers(n_tigers), n_fish(n_fish)
 {
+    //Initializes values as zero.
+    n_fish_teeth_brushed=0;
+    n_monkeys_fed=0;
+    n_tigers_scratched=0;
 }
 
 void AnimalRightsGroup::update(AnimalEvent event)
@@ -22,7 +26,6 @@ void AnimalRightsGroup::update(AnimalEvent event)
 
 bool AnimalRightsGroup::animals_ok()
 {
-    // do not modify
-    std::cout<<n_monkeys_fed<<" ";
+    // do not modify ( '_' )
     return (n_monkeys == n_monkeys_fed && n_tigers == n_tigers_scratched && n_fish == n_fish_teeth_brushed);
 }

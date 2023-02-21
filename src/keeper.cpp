@@ -5,6 +5,8 @@
 #include "fish.hpp"
 #include "tiger.hpp"
 
+//Calls the appropriate function for caring for the specific animal
+
 void Keeper::visit(Monkey &monkey)
 {
     monkey.feed_banana();
