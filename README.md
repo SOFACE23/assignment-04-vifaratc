@@ -5,7 +5,7 @@ In the lecture several design patterns were introduced. You have already used on
 Today's exercise covers two new patterns; the _visitor_ pattern and the _observer_ pattern.
 
 <div>
-<img src="docs/monkey.jpg" height=400>
+<img src="docs/353.jpg" height=400>
 <img src="docs/zoo_keeper.jpg" height=400>
 <div>
 
