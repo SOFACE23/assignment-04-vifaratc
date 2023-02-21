@@ -24,8 +24,13 @@ void AnimalRightsGroup::update(AnimalEvent event)
     }
 }
 
+void AnimalRightsGroup::kill(Animal &animal)
+{
+    animal.isDead=true;
+}
+
 bool AnimalRightsGroup::animals_ok()
 {
-    // do not modify ( '_' )
+    // do not modify
     return (n_monkeys == n_monkeys_fed && n_tigers == n_tigers_scratched && n_fish == n_fish_teeth_brushed);
 }

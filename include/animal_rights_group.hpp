@@ -2,6 +2,7 @@
 #define ANIMAL_RIGHTS_GROUP_HPP
 
 #include "observer.hpp"
+#include "animal.hpp"
 
 class AnimalRightsGroup : public Observer
 {
@@ -15,6 +16,8 @@ public:
 
     bool animals_ok();
 
+    void kill(Animal &animal);
+
 private:
     int n_monkeys;
     int n_tigers;
@@ -22,6 +25,7 @@ private:
     int n_monkeys_fed;
     int n_tigers_scratched;
     int n_fish_teeth_brushed;
+    int n_animals_killed;
 };
 
 #endif // ANIMAL_RIGHTS_GROUP_HPP

@@ -10,6 +10,8 @@ public:
     virtual void accept(Visitor &visitor) = 0;
 
     virtual ~Animal(){};
+
+    bool isDead = false;
 };
 
 #endif // ANIMAL_HPP
